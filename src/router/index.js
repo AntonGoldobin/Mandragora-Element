@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import AppTable from '../components/table.vue'
-import AppTable2 from '../components/table2.vue'
+import AppButtons from '../components/buttons.vue'
+import AppInputs from '../components/inputs.vue'
 
 Vue.use(Router)
 
@@ -10,13 +10,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Foo',
-      component: AppTable
+      name: 'Buttons',
+      component: AppButtons
     },
     {
-      path: '/bar',
-      name: 'Bar',
-      component: AppTable2
+      path: '/Inputs',
+      name: 'Inputs',
+      component: AppInputs
     }
   ]
 })

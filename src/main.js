@@ -10,11 +10,13 @@ import Footer from './components/footer.vue'
 import Leftmenu from './components/left-menu.vue'
 import Settings from './components/settings.vue'
 import Filter from './components/filter-btn.vue'
+import VueHighlightJS from 'vue-highlightjs'
 
 
 
 Vue.use(BootstrapVue)
 Vue.use(VueRouter)
+Vue.use(VueHighlightJS)
 Vue.component ('app-header', Header)
 Vue.component ('app-footer', Footer)
 Vue.component ('app-left-menu', Leftmenu)

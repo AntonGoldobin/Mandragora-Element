@@ -4,5 +4,11 @@
 @import './base/table.sass';
 @import './base/footer.sass';
 @import './base/navbar.sass';
-@import './base/input.sass';
+
 @import './base/filter.sass';
+@import './highlight/atom-one-light';
+
+//FOR KIT
+@import 'mandragora-kit/buttons';
+@import './base/kit-design.sass';
+@import 'mandragora-kit/input';
