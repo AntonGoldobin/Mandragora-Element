@@ -6,9 +6,10 @@
 @import './base/navbar.sass';
 
 @import './base/filter.sass';
-@import './highlight/atom-one-light';
+@import 'highlight/atom-one-light';
 
 //FOR KIT
 @import 'mandragora-kit/buttons';
 @import './base/kit-design.sass';
 @import 'mandragora-kit/input';
+@import 'mandragora-kit/dropdowns';

@@ -1,9 +1,10 @@
 <template>
 <div class="footer">
   <b-container class="bv-example-row">
-    <b-row>
+    <b-row align-v="center">
       <b-col cols="5">
-          logo
+        <img src="../assets/logo2.png" class="logo-footer align-items-center" alt="BV">
+        <span class="nav-title"> Mandragora-Element</span>
       </b-col>
       <b-col cols="3">
         <div class='contact margin-bot'>Для коммерческих вопросов:</div>

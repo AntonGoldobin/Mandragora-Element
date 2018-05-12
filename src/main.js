@@ -13,7 +13,6 @@ import Filter from './components/filter-btn.vue'
 import VueHighlightJS from 'vue-highlightjs'
 
 
-
 Vue.use(BootstrapVue)
 Vue.use(VueRouter)
 Vue.use(VueHighlightJS)

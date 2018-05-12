@@ -22,12 +22,23 @@
     border: solid 1px #e1e1e1
     font-size: 14px
 
+  input.error
+    border: solid 1.5px #f15b52
+
+  input.accept
+    border: solid 1.5px #55c049
+
   label
     font-size: 12px
 
   input:focus
     border: solid 1px #0bb879
     box-shadow: unset
+
+  input:disabled
+    background-color: #fdfdfd
+    border: solid 1px #f0f0f0
+    color: #cdcdcd
 
   .input-group-append
     button
@@ -46,7 +57,7 @@
   .input-group
     input
       border-color: $gray-lighter
-      font-size: 12px
+      font-size: 14px
 
     input:focus
       box-shadow: none
