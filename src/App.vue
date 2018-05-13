@@ -30,6 +30,6 @@ export default {
 
 
 <style lang="scss">
-@import '../style/application.scss';
+@import '../style/application';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 </style>

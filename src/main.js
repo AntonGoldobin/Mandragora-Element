@@ -5,12 +5,14 @@ import BootstrapVue from "bootstrap-vue"
 import router from './router'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap-vue/dist/bootstrap-vue.css"
+import 'bootstrap'
 import Header from './components/header.vue'
 import Footer from './components/footer.vue'
 import Leftmenu from './components/left-menu.vue'
 import Settings from './components/settings.vue'
 import Filter from './components/filter-btn.vue'
 import VueHighlightJS from 'vue-highlightjs'
+
 
 
 Vue.use(BootstrapVue)
