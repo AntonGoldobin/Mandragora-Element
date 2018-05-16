@@ -5,6 +5,7 @@ import AppInputs from '../components/inputs.vue'
 import AppDroplists from '../components/droplists.vue'
 import AppDropdowns from '../components/dropdowns.vue'
 import Checkboxes from '../components/checkboxes.vue'
+import Alerts from '../components/alerts.vue'
 
 Vue.use(Router)
 
@@ -35,6 +36,11 @@ export default new Router({
       path: '/checkboxes',
       name: 'Checkboxes',
       component: Checkboxes
+    },
+    {
+      path: '/alerts',
+      name: 'Alerts',
+      component: Alerts
     }
   ]
 })

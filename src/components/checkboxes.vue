@@ -77,9 +77,11 @@
         <div class="elements-block">
 
           <input type="radio" class="radio" id="radio-1" name="radio" required/>
-          <label for="radio-1">А я переключаю радиокнопку</label>
+          <label for="radio-1">First radio</label>
           <input type="radio" class="radio" id="radio-2" name="radio" required/>
-          <label for="radio-2" class="ml-3">А я переключаю радиокнопку</label>
+          <label for="radio-2" class="ml-3">Seсond Radio</label>
+          <input type="radio" class="radio" id="radio-3" name="radio" required disabled/>
+          <label for="radio-3" class="ml-3">Disabled Radio</label>
 
         </div>
       </div>
@@ -127,10 +129,10 @@
                 `,
                 codeRadio: `
       <input type="radio" class="radio" id="radio-1" name="radio" required/>
-      <label for="radio-1">А я переключаю радиокнопку</label>
+      <label for="radio-1">First radio</label>
 
       <input type="radio" class="radio" id="radio-2" name="radio" required/>
-      <label for="radio-2" class="ml-3">А я переключаю радиокнопку</label>
+      <label for="radio-2" class="ml-3">Second Radio</label>
             `
 
             }
