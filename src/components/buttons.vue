@@ -66,6 +66,27 @@
         </div>
       </div>
 
+    <div class="page-title mt-5">
+      Text buttons
+      <div class="page-description">
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="elements-block">
+        <button type="button" class="btn btn-link">Active</button>
+        <button type="button" class="btn btn-link" disabled>Disabled</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="code-block">
+        <highlight language="html">
+          {{ codeTextButton }}
+        </highlight>
+      </div>
+    </div>
+
     </container>
   </div>
 </template>
@@ -91,7 +112,11 @@
               codeButtonOutlineIcon: `
       <button type="button" class="btn btn-outline-secondary"><img src="../assets/copy-icon.png">Secondary</button>
 
-      <button type="button" class="btn btn-outline-secondary" disabled><img src="../assets/copy-icon.png" class="svg">Disabled</button>`
+      <button type="button" class="btn btn-outline-secondary" disabled><img src="../assets/copy-icon.png" class="svg">Disabled</button>`,
+              codeTextButton: `
+     <button type="button" class="btn btn-link">Active</button>
+
+     <button type="button" class="btn btn-link" disabled>Disabled</button>`
           }
       },
       components: {

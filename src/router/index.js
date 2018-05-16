@@ -4,6 +4,7 @@ import AppButtons from '../components/buttons.vue'
 import AppInputs from '../components/inputs.vue'
 import AppDroplists from '../components/droplists.vue'
 import AppDropdowns from '../components/dropdowns.vue'
+import Checkboxes from '../components/checkboxes.vue'
 
 Vue.use(Router)
 
@@ -29,6 +30,11 @@ export default new Router({
         path: '/dropdowns',
         name: 'Dropdowns',
         component: AppDropdowns
+    },
+    {
+      path: '/checkboxes',
+      name: 'Checkboxes',
+      component: Checkboxes
     }
   ]
 })
