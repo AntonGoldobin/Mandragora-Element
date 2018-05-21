@@ -26,8 +26,8 @@
 
       <div class="row">
         <div class="elements-block">
-          <button type="button" class="btn btn-primary"><img src="../assets/plus-icon.png">Primary</button>
-          <button type="button" class="btn btn-primary" disabled><img src="../assets/plus-icon.png">Disabled</button>
+          <button type="button" class="btn btn-primary"><i class="fas fa-plus"></i>Primary</button>
+          <button type="button" class="btn btn-primary" disabled><i class="fas fa-plus"></i>Disabled</button>
         </div>
       </div>
       <div class="row">
@@ -54,8 +54,8 @@
 
       <div class="row">
         <div class="elements-block">
-          <button type="button" class="btn btn-outline-secondary"><img src="../assets/copy-icon.png">Secondary</button>
-          <button type="button" class="btn btn-outline-secondary" disabled><img src="../assets/copy-icon.png" class="svg">Disabled</button>
+          <button type="button" class="btn btn-outline-secondary"><i class="far fa-clone"></i>Secondary</button>
+          <button type="button" class="btn btn-outline-secondary" disabled><i class="far fa-clone"></i>Disabled</button>
         </div>
       </div>
       <div class="row">

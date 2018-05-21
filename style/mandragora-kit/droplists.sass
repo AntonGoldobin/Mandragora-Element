@@ -13,28 +13,28 @@
     border-radius: 3px
 
   .multiselect--active:not(.multiselect--above) .multiselect__current, .multiselect--active:not(.multiselect--above) .multiselect__input, .multiselect--active:not(.multiselect--above) .multiselect__tags
-    border: solid 1px #0bb879
+    border: solid 1px $primary
     border-radius: 3px
 
   .multiselect__option--highlight
-    background-color: #fafafa
-    color: #4a4a4a
+    background-color: $gray-lightest
+    color: $gray
 
   .multiselect__option--highlight:after
-    background-color: #fafafa
-    color: #0bb879
+    background-color: $gray-lightest
+    color: $primary
 
   .multiselect--disabled .multiselect__current, .multiselect--disabled .multiselect__select, .multiselect__option--disabled
-    background: #fafafa
+    background: $gray-lightest
     opacity: 0.6
 
   .multiselect__option--selected
-    background-color: #0bb879
+    background-color: $primary
     font-weight: unset
-    color: white
+    color: $white
 
   .multiselect__option--selected:after
-    color: white
+    color: $white
     opacity: 0.6
 
   //BOOTSTRAP DROPLIST
@@ -43,8 +43,8 @@
     min-width: 232px
     height: 40px
     border-radius: 3px
-    background-color: #ffffff
-    border: solid 1px #e1e1e1
+    background-color: $white
+    border: solid 1px $gray-lighter
     font-size: 14px
 
   select.form-control:focus

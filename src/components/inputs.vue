@@ -43,13 +43,19 @@
       <div class="row">
         <div class="elements-block">
           <div class="col-sm-6">
-            <label for="exampleInputName">Name</label>
-            <input type="text" class="form-control error" id="exampleInputName" placeholder="Enter name">
+            <div class="error">
+              <label for="exampleInputName">Name</label>
+              <input type="text" class="form-control" id="exampleInputName" placeholder="Enter name">
+              <span class="fas fa-times"></span>
+            </div>
           </div>
 
           <div class="col-sm-6">
-            <label for="exampleInputNumber">Number</label>
-            <input type="tel" class="form-control accept" id="exampleInputNumber" placeholder="Enter phone-number">
+            <div class="accept">
+              <label for="exampleInputNumber">Number</label>
+              <input type="tel" class="form-control" id="exampleInputNumber" placeholder="Enter phone-number">
+              <span class="fas fa-check"></span>
+            </div>
           </div>
 
           <div class="col-sm-6">
@@ -74,7 +80,7 @@
             <input type="text" class="form-control" placeholder="Поиск по наименованию">
             <div class="input-group-append">
               <button class="btn" type="button">
-                <img src="../assets/search-icon.svg">
+                <i class="fas fa-search"></i>
               </button>
             </div>
           </div>

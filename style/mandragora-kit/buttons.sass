@@ -14,9 +14,8 @@
     height: 40px
     transition: unset
 
-  .btn.btn-primary img
+  .btn.btn-primary i
     margin-right: 10px
-    margin-bottom: 3px
 
   .btn.btn-primary:active
     box-shadow: unset
@@ -34,9 +33,9 @@
     box-shadow: unset
 
   .btn.btn-outline-secondary
-    color: #3a3d3f
-    background-color: #ffffff
-    border: solid 1px #e1e1e1
+    color: $gray
+    background-color: $white
+    border: solid 1px $gray-lighter
     border-radius: 100px
     text-decoration: none
     font-size: 14px
@@ -48,39 +47,42 @@
     transition: unset
 
   .btn.btn-outline-secondary:not(:disabled):hover
-    background-color: #fafafa
+    background-color: $gray-lightest
 
   .btn.btn-outline-secondary:disabled
-    border-color: #e1e1e1
-    color: #e1e1e1
+    border-color: $gray-lighter
+    color: $gray-lighter
     opacity: 1
 
-  .btn.btn-outline-secondary img
+  .btn.btn-outline-secondary i
     margin-right: 10px
-    margin-bottom: 3px
+    color: $primary
+
+  .btn.btn-outline-secondary:disabled i
+    color: #e1e2e7
 
   .btn.btn-outline-secondary:disabled img
     opacity: 0.2
 
   .btn-outline-secondary:focus, .btn-outline-secondary.focus
-    background-color: #fafafa
+    background-color: $gray-lightest
     box-shadow: unset
 
   .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active, .show > .btn-outline-secondary.dropdown-toggle
     box-shadow: none
-    border: solid 1px #e1e1e1
-    background-color: #fafafa
+    border: solid 1px $gray-lighter
+    background-color: $gray-lightest
     color: #3a3d3f
 
   .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-secondary.dropdown-toggle:focus
     box-shadow: unset
 
   .btn.btn-link
-    color: #3a3d3f
+    color: $gray
 
   .btn.btn-link:focus
-    color: #30c38d
+    color: $primary
 
   .btn.btn-link:hover
-    color: #30c38d
+    color: $primary
 
