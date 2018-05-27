@@ -8,16 +8,8 @@ function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
 
-const createLintingRule = () => ({
-  test: /\.(js|vue)$/,
-  loader: 'eslint-loader',
-  enforce: 'pre',
-  include: [resolve('src'), resolve('test')],
-  options: {
-    formatter: require('eslint-friendly-formatter'),
-    emitWarning: !config.dev.showEslintErrorsInOverlay
-  }
-})
+
+
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
@@ -39,41 +31,15 @@ module.exports = {
   },
   module: {
     rules: [
-      ...(config.dev.useEslint ? [createLintingRule()] : []),
       {
         test: /\.vue$/,
         loader: 'vue-loader',
-        options: vueLoaderConfig,
-        {
-            loaders: {
-                'scss': 'vue-style-loader!css-loader!sass-loader',
-                'sass': 'vue-style-loader!css-loader!sass-loader?indentedSyntax'
-            }
-        }
-      },
-      {
-        test: /\.scss$/,
-        use: [
-          {
-            loader: 'css-loader'
-          },
-          {
-            loader: 'sass-loader'
-          }
-        ]
-      },
-      {
-        test: /\.js$/,
-          loader: 'babel-loader?cacheDirectory',
-        include: [
-        PATHS.SRC,
-        /vue2-datatable-component/
-      ]
+        options: vueLoaderConfig
       },
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client'),resolve('node_modules/vue2-datatable-component/src'),resolve('node_modules/vue-awesome')]
+        include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')]
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
