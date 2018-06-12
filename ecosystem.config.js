@@ -28,7 +28,7 @@ module.exports = {
       ref  : 'origin/master',
       repo : 'https://github.com/AntonGoldobin/Mandragora-Element.git',
       path : '/home/kraken/apps/mandragora',
-      'post-deploy' : 'yarn install && yarn run build && cp dist/static/css/*.css dist/mandragora.css && pm2 reload ecosystem.config.js --env production'
+      'post-deploy' : 'yarn install && yarn run build && cp dist/static/css/kit.*.css dist/mandragora.css && pm2 reload ecosystem.config.js --env production'
     }
   }
 };

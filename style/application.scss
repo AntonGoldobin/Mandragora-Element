@@ -1,4 +1,4 @@
-@import './base/_variables.scss';
+@import 'mandragora-kit/variables';
 @import './base/base.sass';
 @import './base/left-menu.sass';
 @import './base/table.sass';
@@ -7,12 +7,7 @@
 
 @import './base/filter.sass';
 @import 'highlight/atom-one-light';
+@import './base/kit-design.sass';
 
 //FOR KIT
-@import 'mandragora-kit/buttons';
-@import './base/kit-design.sass';
-@import 'mandragora-kit/input';
-@import 'mandragora-kit/droplists';
-@import 'mandragora-kit/dropdowns';
-@import 'mandragora-kit/checkboxes';
-@import 'mandragora-kit/alerts';
+@import 'mandragora-kit/main';
