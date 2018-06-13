@@ -1,4 +1,7 @@
-@import 'mandragora-kit/variables';
+//FOR KIT
+@import 'mandragora-kit/main';
+
+
 @import './base/base.sass';
 @import './base/left-menu.sass';
 @import './base/table.sass';
@@ -9,5 +12,3 @@
 @import 'highlight/atom-one-light';
 @import './base/kit-design.sass';
 
-//FOR KIT
-@import 'mandragora-kit/main';
