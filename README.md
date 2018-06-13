@@ -14,5 +14,8 @@ npm run dev
 # build for production with minification
 npm run build
 
+# deploy
+pm2 deploy production
+
 # be cool
 ```
